@@ -1,0 +1,212 @@
+body {
+  background-color: #f6f6f6;
+}
+.navbar {
+  height: 40px;
+  width: 100%;
+  /*border: 1px solid red;*/
+  display: flex;
+  border-bottom: 1px solid rgb(228, 222, 222);
+  padding-bottom: 10px;
+}
+.left-section {
+  height: 100%;
+  width: 25%;
+  /*border: 1px solid green;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search-section {
+  height: 100%;
+  width: 40%;
+  /*border: 1px solid blue;*/
+  margin-left: 5%;
+}
+.right-section {
+  height: 100%;
+  width: 20%;
+  /*border: 1px solid teal;*/
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  height: 60%;
+}
+.input-box {
+  width: 100%;
+  height: 90%;
+  background: transparent;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 20px;
+}
+.drop-down {
+  height: 100%;
+  border: 0px;
+  background: transparent;
+}
+.content {
+  width: 100%;
+  height: 500px;
+  /*border: 1px solid red;*/
+  margin-top: 10px;
+  display: flex;
+}
+.side-nav {
+  width: 15%;
+  padding-left: 40px;
+  box-sizing: border-box;
+  /*border: 1px solid teal;*/
+}
+.album-list {
+  width: 85%;
+  /*border: 1px solid green;*/
+}
+.lib {
+  margin-bottom: 25px;
+  color: #828da8;
+}
+.history {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.songs {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.albums {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.podcasts {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.artists {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.menu {
+  margin-bottom: 15px;
+  font-size: #3e3e3e;
+}
+.playlist-button {
+  /*border: 1px solid #2bc5b4;*/
+  color: #2bc5b4;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 8px 15px 8px 15px;
+}
+.Playlist {
+  width: 15px;
+  height: 15px;
+}
+.trending {
+  color: #3e3e3e;
+  font-size: 20px;
+}
+.movie-list {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  /*border: 1px solid red;*/
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.card {
+  /*border: 1px solid red;*/
+}
+.album {
+  text-align: center;
+  color: #3e3e3e;
+  margin: 2px;
+}
+.singer {
+  text-align: center;
+  color: #3e3e3e;
+  margin: 2px;
+}
+.movie-image {
+  width: 100%;
+}
+.live-music {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  /*border: 1px solid red;*/
+  position: fixed;
+  bottom: 0;
+}
+.left {
+  width: 20%;
+  height: 100%;
+  /*border: 1px solid teal;*/
+  display: flex;
+  align-items: center;
+}
+.center {
+  width: 20%;
+  height: 100%;
+  /*border: 1px solid teal;*/
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.right {
+  width: 20%;
+  height: 100%;
+  /*border: 1px solid teal;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.live-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.button-bottom {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+}
+.right-button {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+}
+
+.box:hover {
+  cursor: grab;
+  border: 2.5px solid black;
+}
+
+.menu:hover {
+    cursor: grab;
+    border: 2.5px solid black;
+  }
+
+.input-box:hover {
+    cursor: text;
+    border: 2.5px solid #2bc5b4;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

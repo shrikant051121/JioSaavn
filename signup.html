@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+        .left{
+            height: 100%;
+            width: 50%;
+            background-color: #ba6053;
+            position: relative;
+        }
+        .right{
+            height: 100%;
+            width: 50%;
+            background-color: #f6f6f6;
+            position: relative;
+        }
+        .logo{
+            height: 4%;
+            padding: 20px;
+        }
+        .avatar{
+            height: 470px;
+            width: 470px;
+        }
+        .avatar-container{
+            /*border: 1px solid red;*/
+            position: absolute;
+            left: 25%;
+            top: 15%;
+
+        }
+        .avatar-text{
+            text-align: center;
+            font-size: 34px;
+            color: white;
+        }
+        .avatar-text-second{
+            text-align: center;
+            color: #f4ae82;
+            font-size: 24px;
+            font-style: italic;
+        }
+        .account{
+            float: right;
+            padding: 20px;
+        }
+        .btn{
+            padding: 6px 22px;
+            border: 1px solid #2a2d36;
+            background-color: white;
+            border-radius: 12px;
+            margin-left: 10px;
+        }
+        .form{
+            /*border: 1px solid red;*/
+            position: absolute;
+            height: 70%;
+            width: 70%;
+            top: 20%;
+            left: 15%;
+            text-align: center;
+        }
+        .welcome{
+            color: #3e3e3e;
+            font-size: 34px;
+        }
+        .signup{
+            font-size: 15px;
+            color: #3e3e3e;
+            margin-top: -12px;
+            margin-bottom: 30px;
+        }
+        .input-field{
+            padding: 17px 22px;
+            width: 50%;
+            margin-bottom: 20px;
+            background-color: white;
+            border: 1px solid rgb(216, 210, 210);
+            border-radius: 25px;
+        }
+        .input-field::placeholder{
+            font-family: sans-serif;
+            color: #3e3e3e;
+            text-align: center;
+            font-size: 16px;
+        }
+        .submit{
+            background-color: #2bc5b4;
+            width: 60%;
+            color: white;
+            font-size: 22px;
+        }
+        .recap{
+            width: 45%;
+            height: 15%;
+            margin-bottom: 20px;
+            border: 1px solid #c5c5c5;
+        }
+        .em{
+            width: 60%;
+            margin: auto;
+            text-align: left;
+            font-style: italic;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .continue{
+            font-size: 13px;
+            color: #3e3e3e;
+            margin-top: 20px;
+        }
+        .social{
+            display: flex;
+            justify-content: center;
+        }
+        .mobile{
+            background-color: #2a2d36;
+            border: 1px solid #2a2d36;
+            padding: 15px 35px;
+            color: white;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+        .fb{
+            background-color: #3d5798;
+            border: 1px solid #3d5798;
+            padding: 15px 45px;
+            color: white;
+            border-radius: 20px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        button:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="logo" src="Logo.jpeg" alt="logo">
+            <div class="avatar-container">
+                <img class="avatar" src="cover page jio.jpg" alt="avatar">
+                <h2 class="avatar-text">All Your Music.</h2>
+                <p class="avatar-text-second">Anytime, Anywhere.</em>
+            </div>
+        </div>
+        <div class="right">
+            <div class="account">
+                Already have an account?<button class="btn">LogIn</button>
+            </div>
+            <div class="form">
+                <h1 class="welcome">Welcome to JioSaavn.</h1>
+                <p class="signup">Sign up with your mobile number.</p>
+                <input type="text" class="input-field" placeholder="Email Address"><br>
+                <input type="text" class="input-field" placeholder="Password"><br>
+                <input type="text" class="input-field" placeholder="Confirm Password"><br>
+                <img class="recap" src="robot.jpeg" alt="">
+                <input type="button" class="input-field submit" value="Continue"><br>
+                <p class="em">By selecting 'Continue', you agree to JioSaavn's Terms and Privacy Policy.</p>
+                <p class="continue">OR CONTINUE WITH </p>
+                <div class="social">
+                    <button class="mobile">Mobile Number</button>
+                    <button class="fb">Facebook</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
